@@ -6,18 +6,18 @@ summary:    Why "African Time" exists
 categories: life
 ---
 
-A curious friend asked me the other day: "why are Africans almost always late for events?" I explained to her how different cultures have different perceptions of time, of which Africa is no exception. I didn't get the chance to elaborate on it. I'll try to do that here.
+A friend asked me the other day: "why are Africans almost always late for events?" I explained to her how different cultures have different perceptions of time, of which Africa is no exception. I didn't get the chance to elaborate on it. I'll try to do that here.
 
 ### Task Emphasis
-In many African cultures, more emphasis is put on the task at hand, instead of the time it takes to complete the task. For example, if there was a bus route between point A and B, the bus would have to reach a certain capacity before leaving A to go to B. On the other hand, in a Western country, there would be a fixed schedule at which the bus will leave A regardless of how many people are in the bus. These African cultures put more emphasis on the task (i.e. filling the bus) than a scheduled time for the bus to leave the station.
+In many African cultures, more emphasis is put on the task at hand than the time it takes to complete the task. For example, if there was a bus route between point A and B, the bus would have to reach a certain capacity before leaving A to go to B. On the other hand, in a Western country, there would be a fixed schedule at which the bus will leave A regardless of how many people are in the bus. These African cultures put more emphasis on the task (i.e. filling the bus) than a scheduled time for the bus to leave the station.
 
 This task emphasis can also be observed in the way African businesses charge for services. It is not unusual for businesses to charge by the hour in Western countries. This is not common in Africa and other developing nations. Although time is a factor in pricing, other factors like "social status" (of both seller and buyer) and bargaining skills, play a greater role in the pricing of products and services.
 
 ### Tardiness Tolerance
-Because many activities in African societies are not strictly bound to the clock, Africans have a higher "Tardiness Tolerance Level". Consider a scenario involving a Japanese guy, a European Lady, and an African guy, at a train station, waiting for a train that is running late. If the train does not arrive a minute after its scheduled time, the Japanese guy will become frustrated. It will probably take another 10 minutes before the European lady becomes irked. The African guy may remain calm for another 30 minutes. The Japanese are on the low side of the tardiness tolerance spectrum. Africans are on the opposite end.
+Because many activities in African communities are not driven by the clock, Africans have a higher "Tardiness Tolerance Level". Consider a scenario involving a Japanese guy, a European Lady, and an African guy, at a train station, waiting for a train that is delayed. If the train does not arrive a minute after its scheduled time, the Japanese guy will become frustrated. It will probably take another 10 minutes before the European lady becomes irked. The African guy may remain calm for another 30 minutes. The Japanese are on the low side of the tardiness tolerance spectrum. Africans are on the opposite end.
 
 ### So
-This uncritical attitude towards time is just way of life, a less stressful way, that was perhaps not a problem in the precolonial days. Nowadays however, there is an ever increasing western influence weaving its thread into the fabric of the African Culture. There is friction between the norm and western culture. This culture clash is slowly redefining __African Time__.
+This uncritical attitude towards time is just way of life, a less stressful way, that was perhaps not a problem in the precolonial days, when entire communities operated on the same principles. Nowadays, there is an ever increasing western influence, weaving its thread into the fabric of the African culture. There is friction between the norm and Western values. This culture clash is compelling many Africans to question their ways; slowly redefining __African Time__.
 
 ### Aside
 On New Year's Day of 2012, [Twitter broke because the Japanese were all trying to tweet "happy new year" at __exactly__ midnight](http://www.wired.com/2014/09/how-twitter-handles-traffic-from-the-japanese-who-tweet-like-no-one-else/).
