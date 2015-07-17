@@ -6,7 +6,7 @@ summary:    Why I'm doing this
 categories: intro rant
 ---
 
-A __couple__ years ago, I built a blog and told all my friends about it. The sad this is that I never actually got around to putting any content on it. A few weeks ago, I ran into an old friend who reminded me that I did not deliver on my promise. I felt so bad that I decided to build this blog.
+A __couple__ years ago, I built a blog and told all my friends about it. The sad thing is that I never actually got around to putting any content on it. A few weeks ago, I ran into an old friend who reminded me that I did not deliver on my promise. I felt so bad that I decided to build this blog.
 
 I will deliver this time. I will ensure this by posting at least four entries before telling anybody - even the friend that reminded me of this promise. 
 
