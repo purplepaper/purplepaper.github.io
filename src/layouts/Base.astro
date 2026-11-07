@@ -12,7 +12,7 @@ const SITE_DESCRIPTION = 'Human anecdotes by Dr. Muhammed Saho.';
 const { title, description = SITE_DESCRIPTION, type = 'website' } = Astro.props;
 const fullTitle = title ? `${title} – ${SITE_TITLE}` : SITE_TITLE;
 const canonical = new URL(Astro.url.pathname, Astro.site);
-const image = new URL('/images/me.jpeg', Astro.site);
+const image = new URL('/images/dr-muhammed-saho.jpg', Astro.site);
 ---
 <!doctype html>
 <html lang="en">
