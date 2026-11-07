@@ -16,7 +16,7 @@ draft:      true   # remove to publish
 ---
 ```
 
-A post's URL is `/<categories>/<yyyy>/<mm>/<dd>/<Title>/`, which matches the old Jekyll URLs.
+A post's URL is its file name without the date, lowercased (`/zhe-factory/`). The old Jekyll URLs (`/<categories>/<yyyy>/<mm>/<dd>/<Title>/`) redirect to it.
 Drafts show (with a badge) in `npm run dev`, or in a build run with `DRAFTS=1`, and are left out of the normal production build.
 
 ## Commands

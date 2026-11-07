@@ -1,17 +1,34 @@
 ---
 import { render } from 'astro:content';
 import Base from '../layouts/Base.astro';
-import { getPosts, postPath, formatDate, readingMinutes, type Post } from '../lib/posts';
+import { getPosts, postPath, postUrl, legacyPath, formatDate, readingMinutes, type Post } from '../lib/posts';
 
 export async function getStaticPaths() {
   const posts = await getPosts();
-  return posts.map((post) => ({ params: { path: postPath(post) }, props: { post } }));
+  return posts.flatMap((post) => [
+    { params: { path: postPath(post) }, props: { post, redirect: false } },
+    // Old Jekyll URLs keep working by redirecting to the short one.
+    { params: { path: legacyPath(post) }, props: { post, redirect: true } },
+  ]);
 }
 
-const { post } = Astro.props as { post: Post };
+const { post, redirect } = Astro.props as { post: Post; redirect: boolean };
+const target = new URL(postUrl(post), Astro.site).href;
 const { Content } = await render(post);
 const minutes = readingMinutes(post.body);
 ---
+{redirect ? (
+  <html lang="en">
+    <head>
+      <meta charset="utf-8" />
+      <title>{post.data.title}</title>
+      <link rel="canonical" href={target} />
+      <meta http-equiv="refresh" content={`0; url=${target}`} />
+      <meta name="robots" content="noindex" />
+    </head>
+    <body><a href={target}>{post.data.title}</a></body>
+  </html>
+) : (
 <Base title={post.data.title} description={post.data.summary} type="article">
   <article>
     <header class="post-header">
@@ -34,3 +51,4 @@ const minutes = readingMinutes(post.body);
     </p>
   </aside>
 </Base>
+)}

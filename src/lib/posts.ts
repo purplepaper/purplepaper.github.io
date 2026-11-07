@@ -4,12 +4,16 @@ export type Post = CollectionEntry<'posts'>;
 
 const pad = (n: number) => String(n).padStart(2, '0');
 
-/** Jekyll's "pretty" permalink: /:categories/:year/:month/:day/:title/ */
-export function postPath(post: Post): string {
+const titleOf = (post: Post) => post.id.replace(/^\d{4}-\d{2}-\d{2}-/, '');
+
+/** Short URL path: /zhe-factory/ */
+export const postPath = (post: Post): string => titleOf(post).toLowerCase();
+
+/** Old Jekyll "pretty" path (/:categories/:year/:month/:day/:title/), kept as a redirect. */
+export function legacyPath(post: Post): string {
   const d = post.data.date;
   const categories = post.data.categories.split(/\s+/).filter(Boolean);
-  const title = post.id.replace(/^\d{4}-\d{2}-\d{2}-/, '');
-  return [...categories, d.getUTCFullYear(), pad(d.getUTCMonth() + 1), pad(d.getUTCDate()), title].join('/');
+  return [...categories, d.getUTCFullYear(), pad(d.getUTCMonth() + 1), pad(d.getUTCDate()), titleOf(post)].join('/');
 }
 
 export const postUrl = (post: Post) => `/${postPath(post)}/`;
