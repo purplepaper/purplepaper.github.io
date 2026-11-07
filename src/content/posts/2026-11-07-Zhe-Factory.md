@@ -3,7 +3,6 @@ title:      Zhè Factory
 date:       2026-11-07 12:00:00
 summary:    What I noticed about manufacturing in China
 categories: business manufacturing
-draft:      true
 ---
 
 Most of the factories I visited in China were upstairs. You take an elevator to the fifth floor, the doors open, and there's a production line.
@@ -29,7 +28,7 @@ If you're a North American manufacturer with your own outlets, there's a lesson 
 ### So
 None of this is magic. It's people treating space and time as things to be used fully. A floor of a building is space, so put a production line on it. Time between customers is time, so finish a product with it. North American manufacturers tend to separate things: factories here, stores there, offices somewhere else, and everyone waits for the truck. Sometimes that separation is necessary. Often it's just habit.
 
-What step in your process is where it is out of habit, not need?
+Which step in your process sits where it is out of habit, not need?
 
 ### Aside
 On my flight home, after over an hour in the security line, the officer checking my passport told me to step aside. Then he just left me standing there while everyone behind me went through. Nobody explained anything. A few minutes later, a second officer showed up, scribbled a note on my boarding pass, and sent me back to the check-in desk for a "baggage check".
