@@ -8,7 +8,7 @@ interface Props {
 }
 
 const SITE_TITLE = 'Sahoism';
-const SITE_DESCRIPTION = 'Human anecdotes by Muhammed Saho.';
+const SITE_DESCRIPTION = 'Human anecdotes by Dr. Muhammed Saho.';
 const { title, description = SITE_DESCRIPTION, type = 'website' } = Astro.props;
 const fullTitle = title ? `${title} – ${SITE_TITLE}` : SITE_TITLE;
 const canonical = new URL(Astro.url.pathname, Astro.site);
@@ -21,7 +21,7 @@ const image = new URL('/images/me.jpeg', Astro.site);
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{fullTitle}</title>
     <meta name="description" content={description} />
-    <meta name="author" content="Muhammed Saho" />
+    <meta name="author" content="Dr. Muhammed Saho" />
     <link rel="canonical" href={canonical} />
     <link rel="alternate" type="application/rss+xml" title={SITE_TITLE} href="/feed.xml" />
     <link rel="icon" href="/favicon.ico" sizes="any" />
@@ -48,7 +48,7 @@ const image = new URL('/images/me.jpeg', Astro.site);
       <slot />
     </main>
     <footer class="site-footer">
-      © 2015–{new Date().getFullYear()} <a href="https://sahoism.com">Muhammed Saho</a>
+      © 2015–{new Date().getFullYear()} <a href="https://sahoism.com">Dr. Muhammed Saho</a>
     </footer>
   </body>
 </html>
